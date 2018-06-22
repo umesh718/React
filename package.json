@@ -1,0 +1,28 @@
+{
+    "name": "react-app",
+    "version": "1.0.0",
+    "description": "Its a sample example for react js beginers",
+    "author": "Umesh Kumar Singh",
+    "keywords": [],
+    "scripts": {
+        "build": "webpack  --mode development",
+        "start": "webpack-dev-server"
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "path": "^0.12.7",
+        "webpack": "^4.0.1",
+        "webpack-cli": "^2.0.10",
+        "webpack-dev-server": "^3.1.4"
+    },
+    "dependencies": {
+        "html-webpack-plugin": "^3.2.0",
+        "lodash": "^4.17.10",
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1"
+    }
+}
