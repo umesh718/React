@@ -26,6 +26,7 @@ class Hello extends Component {
     handleAddProject(project){
             let projects = this.state.projects;
             projects.push(project);
+			console.log("handle Add project");
             this.setState({projects:projects});
 
     }
